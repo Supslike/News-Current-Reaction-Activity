@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+/* Garet-Book Font */
+@font-face {
+    font-family: 'Garet Book';
+    src: url('Garet-Book.woff2') format('woff2'),
+         url('Garet-Book.woff') format('woff'),
+         url('Garet-Book.ttf') format('truetype'),
+         url('Garet-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Garet-Heavy Font */
+@font-face {
+    font-family: 'Garet Heavy';
+    src: url('Garet-Heavy.woff2') format('woff2'),
+         url('Garet-Heavy.woff') format('woff'),
+         url('Garet-Heavy.ttf') format('truetype'),
+         url('Garet-Heavy.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #F4F2E9;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 0;
+}
+
+.title h2 {
+    font-size: 15px;
+    font-family: Garet Book, sans-serif;
+    font-weight: 200;
+    width: 20%;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 60px;
+    font-family: Fraunces;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 500;
+    border-left: black 4px solid;
+    border-right: black 4px solid;
+    width: 50%;
+    text-align: center;
+}
+
+.bottom-line {
+    margin: 0% 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 90%;
+    text-align: center;
+    border-top: black 4px solid;
+    border-bottom: black 4px solid;
+}
+
+.bottom-line h2 {
+    font-family: Fraunces;
+    font-size: 30px;
+    font-family: Fraunces;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.quote-line {
+    width: 88%;
+    margin: 2% 5%;
+    text-align: center;
+    background-color: black;
+    padding: 1%;
+}
+
+.quote-line h2 {
+    color: white;
+    font-family: Fraunces;
+    letter-spacing: 4px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 90%;
+    padding: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.img-wrapper, .info-wrapper {
+    width: 50%;
+}
+
+.main-content img {
+    width: 100%;
+    height: auto;
+    filter: grayscale();
+}
+
+.info-wrapper h2 {
+    font-family: Fraunces;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: justify;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.info-wrapper cite {
+    color: rgba(58, 58, 58, 0.75);
+}
+
+.info-wrapper p {
+    margin-top: 15px;
+    font-family: Garet Book, sans-serif;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.continuation {
+    font-family: Garet Book, sans-serif;
+    font-weight: 200;
+    text-align: justify;
+    width: 90%;
+    margin: 0% 5%;
+    margin-bottom: 0.3in;
+}
+
+.reaction-info {
+    width: 90%;
+    margin: 0% 5%;
+    border-top: 3px solid black;
+    padding-top: 0.3in;
+    padding-bottom: 10vh;
+}
+
+.reaction-info h2 {
+    text-align: center;
+    padding-bottom: 0.3in;
+    font-family: Fraunces;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.reaction-info p {
+    font-family: Garet Book, sans-serif;
+    font-weight: 200;
+    text-align: justify;
+}
